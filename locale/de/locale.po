@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-07T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-11-07T00:00:00+00:00\n"
+"Language: de\n"
+
+msgid "plugins.generic.submissionRateLimit.displayName"
+msgstr "Einreichungslimit"
+
+msgid "plugins.generic.submissionRateLimit.description"
+msgstr "Schützt Ihre Zeitschrift vor Spam und Masseneinreichungen, indem die Zahl der Einreichungen begrenzt wird, die ein Nutzerkonto innerhalb einstellbarer Zeiträume beginnen und abschließen kann."
+
+msgid "plugins.generic.submissionRateLimit.rule"
+msgstr "Regel {$number}"
+
+msgid "plugins.generic.submissionRateLimit.rule.description"
+msgstr "Jede Regel erlaubt pro Nutzerkonto im angegebenen Zeitraum höchstens die angegebene Zahl neu begonnener Einreichungen und, getrennt davon, abgeschlossener Einreichungen. Eine begonnene Einreichung zählt auch dann, wenn sie nie abgeschlossen wird. Alle aktiven Regeln gelten gleichzeitig. Eine Regel leer lassen oder 0 eintragen, um sie zu deaktivieren. Der längste mögliche Zeitraum beträgt 366 Tage."
+
+msgid "plugins.generic.submissionRateLimit.rule.max"
+msgstr "Maximale Anzahl Einreichungen"
+
+msgid "plugins.generic.submissionRateLimit.rule.period"
+msgstr "Zeitraum"
+
+msgid "plugins.generic.submissionRateLimit.rule.unit"
+msgstr "Einheit"
+
+msgid "plugins.generic.submissionRateLimit.unit.minutes"
+msgstr "Minute(n)"
+
+msgid "plugins.generic.submissionRateLimit.unit.hours"
+msgstr "Stunde(n)"
+
+msgid "plugins.generic.submissionRateLimit.unit.days"
+msgstr "Tag(e)"
+
+msgid "plugins.generic.submissionRateLimit.options"
+msgstr "Optionen"
+
+msgid "plugins.generic.submissionRateLimit.exemptEditors"
+msgstr "Ausnahmen"
+
+msgid "plugins.generic.submissionRateLimit.exemptEditors.description"
+msgstr "Die Limits nicht auf Administrator/innen, Zeitschriftenverwalter/innen, Rubrikredakteur/innen und Redaktionsassistent/innen anwenden."
+
+msgid "plugins.generic.submissionRateLimit.limitReached"
+msgstr "Sie können derzeit keine weitere Einreichung abschließen. Ihre Einreichung bleibt gespeichert und kann in etwa {$wait} abgeschlossen werden."
+
+msgid "plugins.generic.submissionRateLimit.wait.minutes"
+msgstr "{$count} Minute(n)"
+
+msgid "plugins.generic.submissionRateLimit.wait.hours"
+msgstr "{$count} Stunde(n)"
+
+msgid "plugins.generic.submissionRateLimit.wait.days"
+msgstr "{$count} Tag(en)"
+
+msgid "plugins.generic.submissionRateLimit.limitReached.start"
+msgstr "Sie können derzeit keine neue Einreichung beginnen. Bitte versuchen Sie es in etwa {$wait} erneut."

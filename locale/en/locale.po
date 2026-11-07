@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-07T00:00:00+00:00\n"
+"PO-Revision-Date: 2026-11-07T00:00:00+00:00\n"
+"Language: en\n"
+
+msgid "plugins.generic.submissionRateLimit.displayName"
+msgstr "Submission Rate Limit"
+
+msgid "plugins.generic.submissionRateLimit.description"
+msgstr "Protects your journal against spam and mass submissions by limiting how many submissions a user account can start and complete within configurable time periods."
+
+msgid "plugins.generic.submissionRateLimit.rule"
+msgstr "Rule {$number}"
+
+msgid "plugins.generic.submissionRateLimit.rule.description"
+msgstr "Each rule allows at most the given number of new submissions and, separately, of completed submissions per user account within the given period. Starting a submission counts even if it is never completed. All active rules apply at the same time. Leave a rule empty or enter 0 to disable it. The longest possible period is 366 days."
+
+msgid "plugins.generic.submissionRateLimit.rule.max"
+msgstr "Maximum number of submissions"
+
+msgid "plugins.generic.submissionRateLimit.rule.period"
+msgstr "Period"
+
+msgid "plugins.generic.submissionRateLimit.rule.unit"
+msgstr "Unit"
+
+msgid "plugins.generic.submissionRateLimit.unit.minutes"
+msgstr "minute(s)"
+
+msgid "plugins.generic.submissionRateLimit.unit.hours"
+msgstr "hour(s)"
+
+msgid "plugins.generic.submissionRateLimit.unit.days"
+msgstr "day(s)"
+
+msgid "plugins.generic.submissionRateLimit.options"
+msgstr "Options"
+
+msgid "plugins.generic.submissionRateLimit.exemptEditors"
+msgstr "Exemptions"
+
+msgid "plugins.generic.submissionRateLimit.exemptEditors.description"
+msgstr "Do not apply the limits to site administrators, journal managers, section editors and journal assistants."
+
+msgid "plugins.generic.submissionRateLimit.limitReached"
+msgstr "You cannot complete another submission right now. Your submission has been saved and you can complete it in about {$wait}."
+
+msgid "plugins.generic.submissionRateLimit.wait.minutes"
+msgstr "{$count} minute(s)"
+
+msgid "plugins.generic.submissionRateLimit.wait.hours"
+msgstr "{$count} hour(s)"
+
+msgid "plugins.generic.submissionRateLimit.wait.days"
+msgstr "{$count} day(s)"
+
+msgid "plugins.generic.submissionRateLimit.limitReached.start"
+msgstr "You cannot start a new submission right now. Please try again in about {$wait}."
